@@ -1,0 +1,56 @@
+*.iml
+.gradle/
+/local.properties
+local.properties
+.idea/
+.DS_Store
+build/
+**/build/
+*/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.hprof
+.kotlin/
+
+# Python / Bot / Server
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+bot/auth_sessions.json
+*.log
+.pytest_cache/
+**/.pytest_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!bot/.env.example
+!server/.env.example
+*.pem
+*.key
+*.p12
+*.keystore
+*.jks
+secrets/
+
+# Build outputs
+*.apk
+*.aab
+
+# Local auth demo data & user files
+.venv/
+**/.venv/
+*.sqlite
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.db
+server/user_files/
+
+# QA evidence artifacts
+qa-evidence/
+qa-evidence-zips/
+qa-evidence.zip

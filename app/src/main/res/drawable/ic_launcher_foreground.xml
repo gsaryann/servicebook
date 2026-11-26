@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Car body (White) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,35 L64,35 L71,44 L77,44 C79.2,44 81,45.8 81,48 L81,56 C81,57.1 80.1,58 79,58 L77,58 C77,55.8 75.2,54 73,54 C70.8,54 69,55.8 69,58 L39,58 C39,55.8 37.2,54 35,54 C32.8,54 31,55.8 31,58 L29,58 C27.9,58 27,57.1 27,56 L27,48 C27,45.8 28.8,44 31,44 L37,44 Z" />
+
+    <!-- Windshield (Navy cutout) -->
+    <path
+        android:fillColor="#0F1E36"
+        android:pathData="M45,37 L63,37 L67,43 L41,43 Z" />
+
+    <!-- Headlight left (Navy cutout) -->
+    <path
+        android:fillColor="#0F1E36"
+        android:pathData="M31,47 C32.1,47 33,47.9 33,49 C33,50.1 32.1,51 31,51 C29.9,51 29,50.1 29,49 C29,47.9 29.9,47 31,47 Z" />
+
+    <!-- Headlight right (Navy cutout) -->
+    <path
+        android:fillColor="#0F1E36"
+        android:pathData="M77,47 C78.1,47 79,47.9 79,49 C79,50.1 78.1,51 77,51 C75.9,51 75,50.1 75,49 C75,47.9 75.9,47 77,47 Z" />
+
+    <!-- Wheels (White) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,55 C37.76,55 40,57.24 40,60 C40,62.76 37.76,65 35,65 C32.24,65 30,62.76 30,60 C30,57.24 32.24,55 35,55 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M73,55 C75.76,55 78,57.24 78,60 C78,62.76 75.76,65 73,65 C70.24,65 68,62.76 68,60 C68,57.24 70.24,55 73,55 Z" />
+
+    <!-- Orange Service Badge at bottom center -->
+    <path
+        android:fillColor="#FF5C00"
+        android:pathData="M54,63 C60.08,63 65,67.92 65,74 C65,80.08 60.08,85 54,85 C47.92,85 43,80.08 43,74 C43,67.92 47.92,63 54,63 Z" />
+
+    <!-- White checkmark inside service badge -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M49,74 L52.5,77.5 L59,71" />
+
+</vector>

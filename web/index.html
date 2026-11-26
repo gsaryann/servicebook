@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServiceBook — Возврат в приложение</title>
+    <meta http-equiv="refresh" content="0; url=servicebook://auth">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: #F4F6F9;
+            color: #1E293B;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 24px;
+            text-align: center;
+        }
+        .card {
+            background: #FFFFFF;
+            border-radius: 20px;
+            padding: 36px 24px;
+            max-width: 380px;
+            width: 100%;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+        .icon {
+            font-size: 54px;
+            margin-bottom: 16px;
+        }
+        h1 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #0F172A;
+            margin-bottom: 8px;
+        }
+        p {
+            font-size: 15px;
+            color: #64748B;
+            line-height: 1.5;
+            margin-bottom: 28px;
+        }
+        .btn {
+            display: inline-block;
+            width: 100%;
+            padding: 16px;
+            background: #003366;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 12px;
+            transition: background 0.2s;
+        }
+        .btn:active {
+            background: #002244;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="icon">🚗</div>
+        <h1>Переход в ServiceBook</h1>
+        <p>Возвращаем вас в приложение для ввода проверочного кода...</p>
+        <a class="btn" href="servicebook://auth">Открыть ServiceBook</a>
+    </div>
+
+    <script>
+        // Мгновенный переход в приложение
+        window.location.href = "servicebook://auth";
+        
+        // Повторный переход по таймеру на случай задержки браузера
+        setTimeout(function() {
+            window.location.href = "servicebook://auth";
+        }, 500);
+    </script>
+</body>
+</html>
